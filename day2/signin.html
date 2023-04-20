@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            font-style: italic;
+        }
+       form{
+        align-items: center;
+        display: flex;
+        border: solid black 1px;
+        flex-direction: column;
+        width: 300px;
+       }
+       form input{
+        margin-bottom: 30px;
+       }
+       form button{
+        background-color: blue;
+        color: white;
+        margin-bottom: 3em;
+       }
+    </style>
+</head>
+<body>
+    <h1>This is my website</h1>
+    <p>This website contain information about UI/UX development.</p>
+    <form action="home.html">
+        <label for="">Enter your username:</label>
+        <input type="text" placeholder="username">
+        <label for="">Enter your password:</label>
+        <input type="password" name="" id="" placeholder="password">
+        <button type="submit">LOGIN</button>
+    </form>
+    <p>Don't have account yet? Sign up for free by clicking the below button.</p>
+    <a href="signup.html">SIGN UP</a>
+</body>
+</html>
