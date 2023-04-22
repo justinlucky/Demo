@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: #fff;
+            font-size: 27px;
+        }
+        fieldset{
+            margin-top: 30px;
+            background-size: cover;
+            background-image: url("https://images.unsplash.com/photo-1607250208167-cea1abfef1ba?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4MzM4Mjc&ixlib=rb-4.0.3&q=85");
+        }
+        label{
+            color: #fff;
+        }
+        input,textarea{
+            opacity: .5;
+            transition: .8s ease-in-out;
+        }
+        input:hover{
+            opacity: 1;
+            height: 20px;
+        }
+        button{
+            margin-top: 30px;
+            border: none;
+            padding: 7px;
+            height: 35px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 20px;
+            width: 100px;
+            border-radius: 12px;
+            background-color: lightgreen;
+            margin-left: 45%;
+            transition: .8s ease-in-out;
+        }
+        button:hover{
+            font-size: 24px;
+            width: 110px;
+            height: 40px;
+            background-color: green;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Feedback Form</h1>
+        <form>
+            <fieldset>
+                <h2>Personal Details</h2>
+                <label for="">First name:</label>
+                <input type="text" name="" id="" placeholder="Enter your first name">
+                <br> <br>
+                <label for="">Last name:</label>
+                <input type="text" name="" id="" placeholder="Enter your last name">
+                <br><br>
+                <label for="">Email:</label>
+                <input type="email" name="" id="" placeholder="Enter your first name">
+                <br> <br>
+                <label for="">Phone number:</label>
+                <input type="number" name="" id="" placeholder="Enter your last name">
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <h2>Professional Details</h2>
+                <label for="">First name:</label>
+                <input type="text" name="" id="" placeholder="Enter your first name">
+                <br> <br>
+                <label for="">Last name:</label>
+                <input type="text" name="" id="" placeholder="Enter your last name">
+                <br><br>
+                <label for="">Email:</label>
+                <input type="email" name="" id="" placeholder="Enter your first name">
+                <br> <br>
+                <label for="">Phone number:</label>
+                <input type="number" name="" id="" placeholder="Enter your last name">
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <h2>Feedback</h2>
+                <textarea name="" id="" cols="92" rows="20"></textarea>
+            </fieldset>
+            <button type="submit" onclick="message()">Submit</button>
+        </form>
+    </div>
+    <script>
+        function message(){
+            alert("Thank you!");
+        }
+    </script>
+</body>
+</html>

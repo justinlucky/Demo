@@ -1,0 +1,66 @@
+body{
+    background-color: #000;
+    display: flex;
+    
+}
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: coral;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+#rectangle{
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    margin-bottom: 50px;
+}
+.triangle{
+    margin-top: 70px;
+    position: absolute;
+}
+.triangle .tri1{
+    border: solid black 1px;
+    margin-top: 70px;
+    height: 170px;
+    rotate:-45deg;
+    width: 170px;
+    background-color:#000 ;
+}
+.triangle .tri2{
+    height: 100px;
+    border: solid black 1px;
+    width: 100px;
+    left: 70;
+    background-color: #ddd;
+}
+.triangle .tri3{
+    height: 170px;
+    width: 170px;
+    rotate: 45deg;
+    border: solid black 1px;
+    background-color: #000;
+}
+p{
+    color: #fff;
+}
+p span{
+    font-size: 45px;
+}
+@media only screen and (max-width:768px){
+    body{
+        background-color: #ddd;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: skyblue;
+    }
+}

@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: #47a2d7;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    border-top: #fff solid 1px;
+    transition: .7s ease-in-out;
+}
+header nav ul li a:hover{
+    border-top: none;
+    transition: .7s ease-in-out;
+    border-bottom: #fff solid 1px;
+}
+.fa{
+    color: red;
+}
