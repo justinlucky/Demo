@@ -1,0 +1,104 @@
+ body{
+         margin: 75px;
+         align-items: center;
+         justify-content: center;
+         display: flex;
+         background-image: linear-gradient(to right, black,gray,lightgray,white,lightgray,gray,black);
+        }
+        
+       .square1{
+        border-radius: 50%;
+        height:200px;
+        width: 200px;
+        background-image: linear-gradient(to top, green , white,green);
+        animation: rotate3 infinite 6s ease-in;
+       }
+
+       .square2{
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        background-image: linear-gradient(to left,red,pink,yellow,white,orange);
+        position: absolute;
+        animation: rotate2 infinite 5s ease-in;
+       }
+
+       .square3{
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        background-image: linear-gradient(to right,blue, coral,white);
+        position: absolute;
+        animation: rotate1 infinite 4s ease-in;
+       }
+       .square4{
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        background-image: linear-gradient(to right,black,gray,lightgray,gray,black);
+        position: absolute;
+        animation: rotate4 infinite 10s ease-in;
+       }
+       @keyframes rotate4 {
+        0%{
+            rotate: 45deg;
+            margin-top: 20px;
+            margin-right: 100px;
+        }
+        50%{
+            rotate: -45deg;
+            margin-top: 500px;
+        }
+        100%{
+            rotate: -45deg;
+            margin-top: 30px;
+            margin-left: 200px;
+        }
+       }
+
+       @keyframes rotate1 {
+        0%{
+            rotate: 45deg;
+            margin-top: 45px;
+        }
+        50%{
+            rotate: -45deg;
+            margin-top: 500px;
+        }
+        100%{
+            rotate: -45deg;
+            margin-top: 50px;
+        }
+       }
+
+       @keyframes rotate2 {
+        0%{
+            rotate: 45deg;
+            margin-top: 25px;
+        }
+        50%{
+            rotate: -45deg;
+            margin-top: 500px;
+            margin-left: 65px;
+        }
+        100%{
+            rotate: -45deg;
+            margin-top: 20px;
+        }
+       }
+
+       @keyframes rotate3 {
+        0%{
+            rotate: 45deg;
+            margin-top: 15px;
+        }
+        50%{
+            rotate: -45deg;
+            margin-top: 500px;
+            margin-left: 45px;
+        }
+        100%{
+            rotate: -45deg;
+            margin-top: 10px;
+        }
+       }
