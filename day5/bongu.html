@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bongu </title>
+    <style>
+        body{
+            background-image: linear-gradient(to right,black,white);
+        }
+        #hi{
+            margin-top: 10%;
+            margin-left: 40px;
+            display: flex;
+
+        }
+        #hi .bunti1{
+            position: absolute;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            background-image: linear-gradient(to top,blue,green,orange,yellow);
+            animation: drop1 7s infinite;
+        } 
+        @keyframes drop1 {
+            0%{
+                margin-top: 10%;
+            }
+            50%{
+                margin-top: 500px;
+            }
+            100%{
+                margin-top: 10%;
+            }
+            
+        }
+        #hi .bunti2{
+            position: absolute;
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            background-image: url("https://images.unsplash.com/photo-1554457945-ba5df6648602?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODIzMTQ4NTQ&ixlib=rb-4.0.3&q=85");
+            animation: drop2 9s infinite;
+            background-size: cover;
+        } 
+        @keyframes drop2 {
+            0%{
+                margin-top: 5%;
+
+            }
+            50%{
+                margin-top: 700px;
+                rotate: 45deg;
+            }
+            100%{
+                margin-top: 20px;
+                rotate: -45deg;
+            }
+        }
+        #hi .bunti3{
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            background-image: linear-gradient(to top,blue,green,orange,yellow);
+        } #hi .bunti4{
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            background-image: linear-gradient(to top,blue,green,orange,yellow);
+        } 
+        h1{
+            text-align: center;
+            text-transform: uppercase ;
+            animation: slide 3s infinite;
+        }
+        @keyframes slide {
+            0%{
+                margin-left: 10px;
+            }
+            50%{
+                margin-left: 300px;
+            }
+            100%{
+                margin-left: 10px;
+            }
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1><u>happy birthday kannaya</u></h1>
+
+    <div id="hi">
+        <div class="bunti1"></div>
+        <div class="bunti2"></div>
+        <div class="bunti3"></div>
+        <div class="bunti4"></div>
+    </div>
+</body>
+</html>

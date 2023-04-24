@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: rgba(2, 2, 19,.7);
+}
+
+#container header{
+    height: 7vh;
+    display: flex;
+    position: fixed;
+    border: #888 1px solid;
+}
+
+#container header .fa-bars{
+    font-size: 23px;
+    color: #fff;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+#container header h3{
+    color: #fff;
+    margin-left: 270px;
+    font-weight: lighter;
+}
+
+#container header .fa-plus{
+    margin-right: 12px;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 270px;
+    cursor: pointer;
+}
+
+#container main h2{
+    margin-top: 300px;
+    font-size: 35px;
+    margin-left: 40%;
+    position: absolute;
+    color: #fff;
+}
+#container main .fa-plane{
+    margin-top: 400px;
+    font-size: 25px;
+    margin-left: 41%;
+    position: absolute;
+    color: #fff;
+}
+
+#container main #examples > :nth-child(1){
+    margin-top: 450px;
+    color: #fff;
+    position: absolute;
+    margin-left: 25%;
+    cursor: pointer;
+    height: 45px;
+    width: 400px;
+    border-radius: 7px;
+    background-color:rgba(2, 2, 19,.1) ;
+}
+
+#container main #examples > :nth-child(1):hover{
+    background-color:rgba(2, 2, 19,.6) ;
+}
+
+#container main #examples > :nth-child(2){
+    margin-top: 520px;
+    color: #fff;
+    position: absolute;
+    margin-left: 25%;
+    cursor: pointer;
+    height: 45px;
+    width: 400px;
+    border-radius: 7px;
+    background-color:rgba(2, 2, 19,.1) ;
+}
+
+#container main #examples > :nth-child(2):hover{
+    background-color:rgba(2, 2, 19,.6) ;
+}
+
+#container main #examples > :nth-child(3){
+    margin-top: 590px;
+    color: #fff;
+    position: absolute;
+    margin-left: 25%;
+    cursor: pointer;
+    height: 45px;
+    width: 400px;
+    border-radius: 7px;
+    background-color:rgba(2, 2, 19,.1) ;
+}
+
+#container main #examples > :nth-child(3):hover{
+    background-color:rgba(2, 2, 19,.6) ;
+}
+
+
+

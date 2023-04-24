@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+#animation{
+    margin-top: 70px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+#animation .cylinder{
+    height: 50px;
+    width: 600px;
+    background-image: linear-gradient(to top,black,gray,lightgray,gray,black);
+    border-radius: 12px;
+    box-shadow: rgba(30, 30, 30, .2) 7px 20px;
+    animation: toandfro 7s infinite 1s running;
+}
+@keyframes toandfro {
+    0%{
+        rotate: 45deg;
+    }
+    50%{
+        rotate: 180deg;
+        background-image: linear-gradient(to top,coral,orange,yellow);
+    }
+    100%{
+        rotate: -45deg;
+    }
+    
+}
+#animation .sphere{
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, black,gray,lightgray,gray,black);
+    box-shadow: rgba(30, 30, 30, .2) 80px 70px;
+}
+#animation .cube{
+    height: 300px;
+    width: 300px;
+    box-shadow: rgba(30, 30, 30, .2) 50px 80px;
+    background-image: linear-gradient(to right,blue,skyblue,lightgreen,green);
+}
