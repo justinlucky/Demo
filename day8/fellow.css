@@ -1,0 +1,17 @@
+ .fa-heart{
+            font-size: 170px;
+            color: red;
+            text-shadow: rgba(228, 78, 78, 0.5) 40px 5px;
+            animation: pop 3s 1s infinite ease-out;
+        }
+        @keyframes pop {
+            0%{
+                font-size: 2000px;
+            }
+            50%{
+                font-size: 250px;
+            }
+            100%{
+                font-size: 170px;
+            }
+        }
