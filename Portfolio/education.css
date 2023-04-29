@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#education-container{
+    width: 100%;
+}
+#education-container header{
+    top:10;
+    position: fixed;
+    left:10;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    box-shadow: #f4ecec 1px 1px;
+}
+#education-container header nav{
+    height: 10vh;
+    width: 100%;
+}
+#education-container header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#education-container header nav ul a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222;
+    border-top:solid 2px #037395 ;
+    transition: all .3s ease-in;
+    height: 30px;
+}
+#education-container header nav ul a:hover{
+    color: coral;
+    border-top:none ;
+    padding: 2px;
+    border-bottom:solid 2px #1115df ;
+}
+#education-container header h2{
+    color: blue;
+    font-size: 27px;
+    height: 10vh;
+    margin-top:0;
+}
+#education-container header h2 span{
+    color: coral;
+    font-weight: lighter;
+}
+#education-container main{
+    position: absolute;
+    margin-top: 5vh;
+}
+@media only screen and (max-width:768px) {
+    #education-container{
+        width: 100%;
+    }
+    #education-container header{
+        top:10;
+        position: fixed;
+        left:10;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 5vh;
+        box-shadow: #f4ecec 1px 1px;
+    }
+    #education-container header nav{
+        height: 5vh;
+        width: 100%;
+    }
+    #education-container header nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    #education-container header nav ul a{
+        text-decoration: none;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #222;
+        border-top:solid 1px #037395 ;
+        transition: all .3s ease-in;
+    }
+    #education-container header nav ul a:hover{
+        color: coral;
+        border-top:none ;
+        padding: 1px;
+        border-bottom:solid 1px #1115df ;
+    }
+    #education-container header h2{
+        color: blue;
+        font-size: 20px;
+        height: 5vh;
+        margin-top:5px;
+    }
+    #education-container header h2 span{
+        color: coral;
+        font-weight: lighter;
+    }
+}
