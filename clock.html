@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>Analog Clock using HTML and CSS</title>
+        <style>
+            body{
+                background-color: green;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            section{
+                height: 500px;
+                width: 500px;
+                background-color: aliceblue;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: solid 5px rgba(0,0,0,.7);
+                box-shadow:  20px 0 0  rgba(0,0,0,.3);
+            }
+            #arm1{
+                height: 400px;
+                width: 10px;
+                background-color: blue;
+                animation: turn1 60s infinite ease;
+                border-radius: 0 30px 0 0;
+                box-shadow: 0 0 20px rgba(0,0,0,.8);
+            }
+            @keyframes turn1 {
+                0%{
+                    rotate: 0deg;
+                }
+                100%{
+                    rotate:360deg;
+                }
+            }
+            #arm2{
+                height: 300px;
+                width: 20px;
+                background-color: coral;
+                animation: turn2 3600s infinite ease;
+                border-radius: 0 30px 0 0;
+                position: absolute;
+                box-shadow: 0 0 20px rgba(0,0,0,.8);
+            }
+            @keyframes turn2 {
+                0%{
+                    rotate: 0deg;
+                }
+                100%{
+                    rotate:360deg;
+                }
+            }
+            #arm3{
+                height: 250px;
+                width: 25px;
+                background-color: rgb(19, 175, 8);
+                animation: turn3 86400s infinite ease;
+                border-radius: 0 30px 0 0;
+                position: absolute;
+                box-shadow: 0 0 20px rgba(0,0,0,.8);
+            }
+            @keyframes turn3 {
+                0%{
+                    rotate: 0deg;
+                }
+                100%{
+                    rotate:360deg;
+                }
+            }
+            .num12{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-top: -450px;
+                font-weight: bolder;
+            }
+            .num6{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-top: 450px;
+                font-weight: bolder;
+            }
+            .num3{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: -450px;
+                font-weight: bolder;
+            }
+            .num9{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: 450px;
+                font-weight: bolder;
+            }
+            .num1{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: -250px;
+                margin-top: -370px;
+                font-weight: bolder;
+            }
+            .num7{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: 250px;
+                margin-top: 370px;
+                font-weight: bolder;
+            }
+            .num2{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: -400px;
+                margin-top: -200px;
+                font-weight: bolder;
+            }
+            .num8{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: 400px;
+                margin-top: 200px;
+                font-weight: bolder;
+            }
+            .num5{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: -250px;
+                margin-top: 370px;
+                font-weight: bolder;
+            }
+            .num11{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: 250px;
+                margin-top: -370px;
+                font-weight: bolder;
+            }
+            .num4{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: -390px;
+                margin-top: 200px;
+                font-weight: bolder;
+
+            }
+            .num10{
+                font-size: 37px;
+                color: black;
+                position: fixed;
+                margin-right: 390px;
+                margin-top: -200px;
+                font-weight: bolder;
+                
+            }
+            .dot{
+                height: 30px;
+                width: 30px;
+                background-color: black;
+                border-radius: 50%;
+                position: absolute;
+                box-shadow: 0 0 20px rgba(0,0,0,.8);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Analog clock</h1>
+        <section>
+            <div class="num12">12</div>
+            <div class="num11">11</div>
+            <div class="num10">10</div>
+            <div class="num9">9</div>
+            <div class="num8">8</div>
+            <div class="num7">7</div>
+            <div class="num6">6</div>
+            <div class="num5">5</div>
+            <div class="num4">4</div>
+            <div class="num3">3</div>
+            <div class="num2">2</div>
+            <div class="num1">1</div>
+            <div id="arm1"></div>
+            <div id="arm2"></div>
+            <div id="arm3"></div>
+            <div class="dot"></div>
+        </section>
+        <h2>Designed by Geethu with <span>&#128151;</span></h2>
+        <p>Tomorrow is holiday</p>
+    </body>
+</html>

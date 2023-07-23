@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .lid{
+            height: 100vh;
+            width: 100%;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .bound1{
+            height: 200px;
+            width: 100px;
+            background-color: green;
+            rotate: 10deg;
+        }
+        .origin{
+            height: 150px;
+            width: 25px;
+            background-color: #111;
+        }
+        .bound2{
+            height: 200px;
+            width: 100px;
+            background-color: green;
+            rotate: -10deg;
+        }
+        .pencil{
+            width: 25px;
+            height: 300px;
+            background-color: #111;
+            position: absolute;
+            margin-top: 310px;
+            border-radius: 0 0 7px 7px;
+        }
+        .text{
+            position: absolute;
+            margin-top: 700px;
+        }
+        .text > h1{
+            font-size: 37px;
+            color: coral;
+            text-shadow: 5px 5px #222;
+        }
+    </style>
+</head>
+<body>
+    <div class="lid">
+        <div class="bound1"></div>
+        <div class="origin"></div>
+        <div class="bound2"></div>
+        <div class="pencil"></div>
+        <div class="text">
+            <h1>Pencil</h1>
+        </div>
+    </div>
+</body>
+</html>

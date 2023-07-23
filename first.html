@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>Rakesh</title>
+        <style>
+            section{
+                height: 500px;
+                width: 500px;
+                background-color: aliceblue;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+            }
+            #hand{
+                background-color: coral;
+                height: 250px;
+                width: 10px;
+                animation: turn 600ms  infinite ease;
+                position: absolute;
+            }
+            @keyframes turn {
+                0%{
+                    rotate: 0deg;
+                }
+                100%{
+                    rotate: 360deg;
+                }
+            }
+            #hand1{
+                background-color: yellow;
+                height: 300px;
+                width: 20px;
+                position: absolute;
+                animation: turn1 60s infinite ease;
+                border-radius:  0 37px  0 0;
+            }
+            @keyframes turn1 {
+                0%{
+                    rotate: 0deg;
+                }
+                100%{
+                    rotate: 360deg;
+                }
+            }
+            #hand2{
+                background-color: green;
+                height: 400px;
+                width: 20px;
+                border-radius: 0 34px  0 0;
+                position: absolute;
+                animation: turn2 3600s infinite ease;
+            }
+            @keyframes turn2 {
+                0%{
+                    rotate: 0deg;
+                }
+                100%{
+                    rotate: 360deg;
+                }
+            }
+            .num12{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: -450px;
+                font-weight: bold;
+            }
+            .num6{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: 450px;
+                font-weight: bold;
+            }
+            .num9{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-right: 450px;
+                font-weight: bold;
+            }
+            .num3{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-right: -450px;
+                font-weight: bold;
+            }
+            .num7{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: 370px;
+                margin-right: 250px;
+                font-weight: bold;
+            }
+            .num1{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: -370px;
+                margin-right: -250px;
+                font-weight: bold;
+            }
+            .num2{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: -200px;
+                margin-right: -390px;
+                font-weight: bold;
+            }
+            .num8{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: 200px;
+                margin-right: 390px;
+                font-weight: bold;
+            }
+            .num4{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: 200px;
+                margin-right: -390px;
+                font-weight: bold;
+            }
+            .num10{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: -200px;
+                margin-right: 390px;
+                font-weight: bold;
+            }
+            .num11{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: -370px;
+                margin-right: 230px;
+                font-weight: bold;
+            }
+            .num5{
+                position: fixed;
+                color: brown;
+                font-size: 36px;
+                margin-top: 370px;
+                margin-right: -230px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body style="
+     background-color: blue;
+     display: flex; 
+     flex-direction: column; 
+     align-items: center;"
+    >
+        <h1>A static clock, designed with HTML and CSS.</h1>
+        <section>
+            <div class="num12">12</div>
+            <div class="num11">11</div>
+            <div class="num10">10</div>
+            <div class="num9">9</div>
+            <div class="num8">8</div>
+            <div class="num7">7</div>
+            <div class="num6">6</div>
+            <div class="num5">5</div>
+            <div class="num4">4</div>
+            <div class="num3">3</div>
+            <div class="num2">2</div>
+            <div class="num1">1</div>
+            <div id="hand"></div>
+            <div id="hand1"></div>
+            <div id="hand2"></div>
+        </section>
+    </body>
+</html>
