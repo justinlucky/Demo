@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+</head>
+<body>
+    <h1 id="intro"></h1>
+    <h2 id="pav"></h2>
+    <button onclick="greet()">Greeting</button>
+    </div>
+</body>
+<script>
+    //function
+    function greet(){
+        alert('Welcome to my website');
+    }
+    //consoling method
+    console.log('Hello Ramesh, How is your girlfriend, Geethika?');
+    var a = 24;
+    var b = 24;
+    var c = a + b;
+    var d = a - b;
+    console.log(d);
+    console.log(c);
+    var arr = ['apple','mango','kiwi','banana','custard apple'];
+    arr.forEach(function(element) {
+        console.log(element);
+    });
+    for(var i=0;i<arr.length;i++){
+        console.log(arr[i]);
+    }
+    //
+    const vegies = [
+        {
+            title:'Potatoes',
+            quantity:'2kg',
+        },
+        {
+            title:'Onions',
+            quantity:'10kg',
+        },
+        {
+            title:'Tomatoes',
+            quantity:'100 grams',
+        },
+    ];
+    console.log(vegies[0].title +' '+'of'+' '+ vegies[0].quantity );
+    console.log(vegies[1].title +' '+'of'+' '+ vegies[1].quantity );
+    console.log(vegies[2].title +' '+'of'+' '+ vegies[2].quantity );
+    //alerting method
+    var a = 24;
+    var b = 64;
+    var c = a+b;
+    //direct method
+    var greet = document.getElementById('intro');
+    greet.innerHTML='Hello Geethika';
+    //
+    document.getElementById('pav').innerHTML='This is Lucky';
+    //
+    document.write('waste geethika');
+    //
+    var she='Geethika, Mounika wife';
+    document.write(she);
+</script>
+</html>
